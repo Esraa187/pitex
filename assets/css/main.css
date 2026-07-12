@@ -4136,7 +4136,7 @@ p {
 .hero-1 .hero-height {
   padding: 180px 0 150px;
   border-radius: 10px;
-  height: 700px;
+  /* height: 800px; */
 }
 
 @media (max-width: 767px) {
@@ -18886,6 +18886,9 @@ p.sticky-label {
 
 /* Extra small */
 @media (max-width: 375px) {
+  .timeline-item{
+    height: 450px;
+  }
   .process-badge {
     font-size: 0.72rem;
     padding: 0.45rem 0.9rem;
